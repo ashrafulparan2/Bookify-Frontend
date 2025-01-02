@@ -3,7 +3,6 @@ import App from "../App";
 import AdminLogin from "../components/AdminLogin";
 import Login from "../components/Login";
 import Register from "../components/Register";
-import CartPage from "../pages/books/CartPage";
 import CheckoutPage from "../pages/books/CheckoutPage";
 import OrderPage from "../pages/books/OrderPage";
 import PrivateRoute from "./PrivateRoute";
@@ -22,6 +21,7 @@ import UpdateBook from "../Pages/dashboard/EditBook/UpdateBook";
 import ManageBooks from "../pages/dashboard/manageBooks/ManageBooks";
 import UserDashboard from "../pages/dashboard/users/UserDashboard";
 import Home from "../pages/home/Home";
+import CartPage from "../Pages/books/CartPage";
 
 
 const router = createBrowserRouter([
