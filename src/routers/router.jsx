@@ -3,7 +3,6 @@ import App from "../App";
 import AdminLogin from "../components/AdminLogin";
 import Login from "../components/Login";
 import Register from "../components/Register";
-import CheckoutPage from "../pages/books/CheckoutPage";
 import OrderPage from "../pages/books/OrderPage";
 import PrivateRoute from "./PrivateRoute";
 import SingleBook from "../Pages/books/SingleBook";
@@ -22,6 +21,7 @@ import ManageBooks from "../pages/dashboard/manageBooks/ManageBooks";
 import UserDashboard from "../pages/dashboard/users/UserDashboard";
 import Home from "../pages/home/Home";
 import CartPage from "../Pages/books/CartPage";
+import CheckoutPage from "../pages/books/CheckoutPage";
 
 
 const router = createBrowserRouter([
@@ -64,10 +64,6 @@ const router = createBrowserRouter([
         {
           path: "/cart",
           element: <CartPage/>
-        },
-        {
-          path: "/checkout",
-          element: <PrivateRoute><CheckoutPage/></PrivateRoute>
         },
         {
           path: "/books/:id",
